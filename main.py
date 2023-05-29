@@ -186,7 +186,7 @@ def run():
             )
             snake_len += 1
             if (snake_len - 1) % 10 == 0 and snake_len - 1 != 0:
-                snake_speed += 4
+                snake_speed += 3
                 level += 1
 
         clock.tick(snake_speed)
