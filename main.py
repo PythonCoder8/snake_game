@@ -13,6 +13,8 @@ green = (0, 255, 0)
 dimensions = (600, 400)
 root = pygame.display.set_mode(dimensions)
 pygame.display.set_caption("Snake Game")
+img = pygame.image.load(r'<file path>')
+pygame.display.set_icon(img)
 
 clock = pygame.time.Clock()
 
@@ -85,7 +87,7 @@ def run():
             global level
             global snake_speed
             level = 1
-            snake_speed = 15
+            snake_speed = 12
             l_active = True
             r_active = True
             u_active = True
