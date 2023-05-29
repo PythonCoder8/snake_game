@@ -9,6 +9,8 @@ pip install pygame
 
 ## Playing the Game
 
+**IMPORTANT:** This program will not work right off the bat because on line 16 of main.py the file path for the image icon is not set.
+
 The objective of the game of Snake is to control the snake to eat food, get longer, and get a higher score. The score increases by 1 every time the snake eats food. If the snake crashes into the wall or into itself it's automatically game over.
 
 I added a feature where the game starts at level 1 and when the score reaches a multiple of 10, the user gets to the next level where the speed of the pixel increases.
