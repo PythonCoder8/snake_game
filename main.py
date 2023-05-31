@@ -1,6 +1,6 @@
 """Snake Game
 
-This is a remake of the classic 80's game Snake 
+This is a remake of the classic 70's game Snake 
 programmed in python using the pygame module.
 Control the snake using the arrow keys to eat the food.
 Every time the snake eats an apple the user's score 
